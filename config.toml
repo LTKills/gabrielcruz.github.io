@@ -3,7 +3,7 @@ title = "Gabriel Cruz"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
+pagination.pagerSize = 20
 
 pygmentsStyle = "gruvbox"
 pygmentsCodeFences = true
@@ -178,6 +178,11 @@ url = "about/"
 name = "Blog"
 weight = 2
 url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Research"
+weight = 2
+url = "research/"
 
 [[languages.en.menu.main]]
 name = "Projects"
